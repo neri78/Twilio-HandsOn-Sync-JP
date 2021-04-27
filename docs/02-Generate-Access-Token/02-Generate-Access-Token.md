@@ -31,7 +31,7 @@ Twilio Clientを利用する場合、識別子が必要となります。今回�
 exports.handler = function(context, event, callback) {
   // 今回追加分
   // リクエストのパラメータとして渡ってきた値を識別子として利用
-  const IDENTITY = event.user;
+  const IDENTITY = event.identity;
 
   const ACCOUNT_SID = context.ACCOUNT_SID;
 
@@ -55,7 +55,7 @@ exports.handler = function(context, event, callback) {
 exports.handler = function(context, event, callback) {
 
   // リクエストのパラメータとして渡ってきた値を識別子として利用
-  const IDENTITY = event.user;
+  const IDENTITY = event.identity;
 
   const ACCOUNT_SID = context.ACCOUNT_SID;
 
@@ -84,7 +84,7 @@ exports.handler = function(context, event, callback) {
 exports.handler = function(context, event, callback) {
   // 今回追加分
   // リクエストのパラメータとして渡ってきた値を識別子として利用
-  const IDENTITY = event.user;
+  const IDENTITY = event.identity;
 
   const ACCOUNT_SID = context.ACCOUNT_SID;
 
@@ -119,7 +119,7 @@ exports.handler = function(context, event, callback) {
 ```js
 exports.handler = function(context, event, callback) {
   // リクエストのパラメータとして渡ってきた値を識別子として利用
-  const IDENTITY = event.user;
+  const IDENTITY = event.identity;
 
   const ACCOUNT_SID = context.ACCOUNT_SID;
 
@@ -163,7 +163,7 @@ exports.handler = function(context, event, callback) {
 
 `Save`ボタンで保存後、`Deploy All`ボタンをクリックしてFunctionをデプロイします。
 
-デプロイ後、PathのURLをブラウザで開き、末尾に`?user=test`パラメータを追加します。
+デプロイ後、PathのURLをブラウザで開き、末尾に`?identity=test`パラメータを追加します。
 
 ![Twilio Functions - Copy URL](../assets/02-Functions-Path-Url.png)
 
