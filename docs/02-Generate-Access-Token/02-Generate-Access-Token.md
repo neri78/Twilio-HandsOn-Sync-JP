@@ -179,4 +179,4 @@ exports.handler = function(context, event, callback) {
 
 ## 次のハンズオン
 
-[ハンズオン: Syncクライアントアプリの初期化](../03-Sync-CLient-App/00-Overview.md)
+[ハンズオン: Syncクライアントアプリの初期化](../03-Sync-Client-App/00-Overview.md)
