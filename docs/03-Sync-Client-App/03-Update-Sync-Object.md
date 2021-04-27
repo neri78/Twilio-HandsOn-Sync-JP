@@ -36,8 +36,9 @@ alertForm.addEventListener('submit', async (event) => {
 これで基本的なSyncの処理を実装できました。このようにSyncを利用し複数の端末で同じ情報を共有できるようになります。
 
 実開発においては、下記のリソースも参考にしてください。
-- [Syncオブジェクトの生存期間（英語）](https://jp.twilio.com/docs/sync/objects-ttl)
+
 - [Syncの制限（英語）](https://jp.twilio.com/docs/sync/limits)
+- [Syncオブジェクトの生存期間（英語）](https://jp.twilio.com/docs/sync/objects-ttl)
 - [Syncのセキュリティ（英語）](https://jp.twilio.com/docs/sync/permissions-and-access-control)
 
 
