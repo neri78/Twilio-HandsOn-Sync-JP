@@ -39,3 +39,23 @@ alertForm.addEventListener('submit', async (event) => {
 - [Syncオブジェクトの生存期間（英語）](https://jp.twilio.com/docs/sync/objects-ttl)
 - [Syncの制限（英語）](https://jp.twilio.com/docs/sync/limits)
 - [Syncのセキュリティ（英語）](https://jp.twilio.com/docs/sync/permissions-and-access-control)
+
+
+## 今回のハンズオンをクリーンアップ
+
+今回のハンズオンで使用したリソースをクリアする場合は次の手順を実施してください。
+
+
+[Twilio Functionsのサービス一覧](https://jp.twilio.com/console/functions/overview/services)画面で削除したいサービスの`Delete`ボタンをクリックし、サーバーレス実行環境を削除します。
+
+![Functions - delete](../assets/Functions-Delete.png)
+
+[APIキー](https://jp.twilio.com/console/project/api-keys)画面で削除したいキーを選択し、詳細画面で`このAPIキーを削除する`リンクをクリックし、APIキーを削除します。
+
+![API Key - Delete](../assets/API-Key-Delete.png)
+
+[Twilio Syncのサービス一覧](https://jp.twilio.com/console/sync/services)で削除したいサービスを選択し、詳細画面で`Delete this Service`リンクをクリックし、サービスを削除します。
+
+![Sync - Delete](../assets/Sync-Service-Delete.png)
+
+`Default Service`を使用している場合かつ、他で利用していない場合は、`このServiceをリセットする`リンクをクリックし内容をクリアできます。
